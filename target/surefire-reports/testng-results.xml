@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Sign in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[First user successfully subscribed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Second user successfully subscribed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Third user successfully subscribed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Fourth user successfully subscribed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Fifth user successfully subscribed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Video Like and Comment Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24285" started-at="2020-09-24T10:49:35 IST" finished-at="2020-09-24T10:49:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24285" started-at="2020-09-24T10:49:35 IST" finished-at="2020-09-24T10:49:59 IST">
+      <class name="com.youtube.scripts.SignInYoutubeScript">
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SignInYoutubeScript@7c29daf3]" name="preCond" is-config="true" duration-ms="17300" started-at="2020-09-24T10:49:35 IST" finished-at="2020-09-24T10:49:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="SignInYoutube()[pri:0, instance:com.youtube.scripts.SignInYoutubeScript@7c29daf3]" name="SignInYoutube" duration-ms="6251" started-at="2020-09-24T10:49:52 IST" finished-at="2020-09-24T10:49:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignInYoutube -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SignInYoutubeScript@7c29daf3]" name="postCond" is-config="true" duration-ms="697" started-at="2020-09-24T10:49:58 IST" finished-at="2020-09-24T10:49:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+      </class> <!-- com.youtube.scripts.SignInYoutubeScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="38351" started-at="2020-09-24T10:52:49 IST" finished-at="2020-09-24T10:53:28 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38351" started-at="2020-09-24T10:52:49 IST" finished-at="2020-09-24T10:53:28 IST">
+      <class name="com.youtube.scripts.LikeVideoAndCommentScript">
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.LikeVideoAndCommentScript@4b1c1ea0]" name="preCond" is-config="true" duration-ms="12152" started-at="2020-09-24T10:52:49 IST" finished-at="2020-09-24T10:53:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="likeVideoAndComment()[pri:0, instance:com.youtube.scripts.LikeVideoAndCommentScript@4b1c1ea0]" name="likeVideoAndComment" duration-ms="25033" started-at="2020-09-24T10:53:01 IST" finished-at="2020-09-24T10:53:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Video Like and Comment Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- likeVideoAndComment -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.LikeVideoAndCommentScript@4b1c1ea0]" name="postCond" is-config="true" duration-ms="1164" started-at="2020-09-24T10:53:26 IST" finished-at="2020-09-24T10:53:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+      </class> <!-- com.youtube.scripts.LikeVideoAndCommentScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="170194" started-at="2020-09-24T10:49:59 IST" finished-at="2020-09-24T10:52:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="170194" started-at="2020-09-24T10:49:59 IST" finished-at="2020-09-24T10:52:49 IST">
+      <class name="com.youtube.scripts.SubscribeScript">
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="preCond" is-config="true" duration-ms="14860" started-at="2020-09-24T10:49:59 IST" finished-at="2020-09-24T10:50:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="subscribeFirstUser()[pri:1, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="subscribeFirstUser" duration-ms="18058" started-at="2020-09-24T10:50:14 IST" finished-at="2020-09-24T10:50:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[First user successfully subscribed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscribeFirstUser -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="postCond" is-config="true" duration-ms="818" started-at="2020-09-24T10:50:32 IST" finished-at="2020-09-24T10:50:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="preCond" is-config="true" duration-ms="13934" started-at="2020-09-24T10:50:33 IST" finished-at="2020-09-24T10:50:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="subscriberSecondUser()[pri:2, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="subscriberSecondUser" duration-ms="16686" started-at="2020-09-24T10:50:47 IST" finished-at="2020-09-24T10:51:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Second user successfully subscribed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscriberSecondUser -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="postCond" is-config="true" duration-ms="767" started-at="2020-09-24T10:51:03 IST" finished-at="2020-09-24T10:51:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="preCond" is-config="true" duration-ms="14751" started-at="2020-09-24T10:51:04 IST" finished-at="2020-09-24T10:51:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="subscriberThirdUser()[pri:3, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="subscriberThirdUser" duration-ms="18608" started-at="2020-09-24T10:51:19 IST" finished-at="2020-09-24T10:51:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Third user successfully subscribed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscriberThirdUser -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="postCond" is-config="true" duration-ms="740" started-at="2020-09-24T10:51:38 IST" finished-at="2020-09-24T10:51:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="preCond" is-config="true" duration-ms="15560" started-at="2020-09-24T10:51:38 IST" finished-at="2020-09-24T10:51:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="subscriberFourthUser()[pri:4, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="subscriberFourthUser" duration-ms="21647" started-at="2020-09-24T10:51:54 IST" finished-at="2020-09-24T10:52:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Fourth user successfully subscribed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscriberFourthUser -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="postCond" is-config="true" duration-ms="906" started-at="2020-09-24T10:52:16 IST" finished-at="2020-09-24T10:52:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="preCond" is-config="true" duration-ms="14522" started-at="2020-09-24T10:52:16 IST" finished-at="2020-09-24T10:52:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="subscriberFifthhUser()[pri:5, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="subscriberFifthhUser" duration-ms="17481" started-at="2020-09-24T10:52:31 IST" finished-at="2020-09-24T10:52:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Fifth user successfully subscribed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscriberFifthhUser -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.youtube.scripts.SubscribeScript@1e965684]" name="postCond" is-config="true" duration-ms="845" started-at="2020-09-24T10:52:48 IST" finished-at="2020-09-24T10:52:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+      </class> <!-- com.youtube.scripts.SubscribeScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
